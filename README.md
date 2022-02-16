@@ -18,7 +18,7 @@ To get a local copy up and running follow these simple example steps.
 1. Clone the repository
 2. Run the `bundle install` command
 3. Run `rails s` to start the server
-4. Make sure that the server is running in a different port than the front end if you want to test it locally.
+4. Make sure that the server is running at port 3005 so you can get the requests from the front end. You can do this running `rails s -p 3005` when you want to run the server.
 
 ### Prerequisites
 
